@@ -3,7 +3,7 @@ package com.example.emos.wx.task;
 import com.example.emos.wx.db.pojo.MessageEntity;
 import com.example.emos.wx.db.pojo.MessageRefEntity;
 import com.example.emos.wx.exception.EmosException;
-import com.example.emos.wx.userService.MessageService;
+import com.example.emos.wx.service.MessageService;
 import com.rabbitmq.client.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -11,7 +11,7 @@ import com.example.emos.wx.controller.form.SearchMeetingByIdForm;
 import com.example.emos.wx.controller.form.SearchMessageByPageForm;
 import com.example.emos.wx.db.pojo.TbMeeting;
 import com.example.emos.wx.exception.EmosException;
-import com.example.emos.wx.userService.MeetingService;
+import com.example.emos.wx.service.MeetingService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.authz.annotation.Logical;

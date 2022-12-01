@@ -1,19 +1,14 @@
 package com.example.emos.wx.controller;
 
-import cn.hutool.core.date.DateTime;
-import cn.hutool.core.date.DateUtil;
 import cn.hutool.json.JSONUtil;
 import com.example.emos.wx.common.util.R;
-import com.example.emos.wx.config.SystemConstants;
 import com.example.emos.wx.config.shiro.JwtUtil;
 import com.example.emos.wx.controller.form.LoginForm;
 import com.example.emos.wx.controller.form.RegisterForm;
 import com.example.emos.wx.controller.form.SearchMembersForm;
 import com.example.emos.wx.controller.form.SearchUserGroupByDeptForm;
 import com.example.emos.wx.exception.EmosException;
-import com.example.emos.wx.task.MessageTask;
-import com.example.emos.wx.userService.CheckinService;
-import com.example.emos.wx.userService.UserService;
+import com.example.emos.wx.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.apache.shiro.authz.annotation.Logical;

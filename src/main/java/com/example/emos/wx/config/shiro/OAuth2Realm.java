@@ -1,7 +1,7 @@
 package com.example.emos.wx.config.shiro;
 
 import com.example.emos.wx.db.pojo.TbUser;
-import com.example.emos.wx.userService.UserService;
+import com.example.emos.wx.service.UserService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;

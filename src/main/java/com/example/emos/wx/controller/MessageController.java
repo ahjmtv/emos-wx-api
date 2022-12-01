@@ -7,7 +7,7 @@ import com.example.emos.wx.controller.form.SearchMessageByIdForm;
 import com.example.emos.wx.controller.form.SearchMessageByPageForm;
 import com.example.emos.wx.controller.form.UpdateUnreadMessageForm;
 import com.example.emos.wx.task.MessageTask;
-import com.example.emos.wx.userService.MessageService;
+import com.example.emos.wx.service.MessageService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
