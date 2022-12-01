@@ -1,4 +1,4 @@
-package com.example.emos.wx.userService;
+package com.example.emos.wx.service;
 
 import java.util.ArrayList;
 import java.util.HashMap;

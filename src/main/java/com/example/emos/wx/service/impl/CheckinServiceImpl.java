@@ -1,4 +1,4 @@
-package com.example.emos.wx.userService.impl;
+package com.example.emos.wx.service.impl;
 
 import cn.hutool.core.date.DateField;
 import cn.hutool.core.date.DateRange;
@@ -15,12 +15,8 @@ import com.example.emos.wx.db.pojo.TbCheckin;
 import com.example.emos.wx.db.pojo.TbFaceModel;
 import com.example.emos.wx.exception.EmosException;
 import com.example.emos.wx.task.EmailTack;
-import com.example.emos.wx.userService.CheckinService;
+import com.example.emos.wx.service.CheckinService;
 import lombok.extern.slf4j.Slf4j;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;

@@ -1,4 +1,4 @@
-package com.example.emos.wx.userService;
+package com.example.emos.wx.service;
 
 import com.example.emos.wx.db.pojo.MessageEntity;
 import com.example.emos.wx.db.pojo.MessageRefEntity;

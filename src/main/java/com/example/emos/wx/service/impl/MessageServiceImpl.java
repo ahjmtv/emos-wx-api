@@ -1,10 +1,10 @@
-package com.example.emos.wx.userService.impl;
+package com.example.emos.wx.service.impl;
 
 import com.example.emos.wx.db.dao.MessageDao;
 import com.example.emos.wx.db.dao.MessageRefDao;
 import com.example.emos.wx.db.pojo.MessageEntity;
 import com.example.emos.wx.db.pojo.MessageRefEntity;
-import com.example.emos.wx.userService.MessageService;
+import com.example.emos.wx.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

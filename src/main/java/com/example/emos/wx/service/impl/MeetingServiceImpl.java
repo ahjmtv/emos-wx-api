@@ -1,4 +1,4 @@
-package com.example.emos.wx.userService.impl;
+package com.example.emos.wx.service.impl;
 
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.http.HttpRequest;
@@ -10,7 +10,7 @@ import com.example.emos.wx.db.dao.TbMeetingDao;
 import com.example.emos.wx.db.dao.TbUserDao;
 import com.example.emos.wx.db.pojo.TbMeeting;
 import com.example.emos.wx.exception.EmosException;
-import com.example.emos.wx.userService.MeetingService;
+import com.example.emos.wx.service.MeetingService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
